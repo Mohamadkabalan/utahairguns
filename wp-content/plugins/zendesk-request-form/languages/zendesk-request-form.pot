@@ -1,0 +1,125 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zendesk Request Form\n"
+"POT-Creation-Date: 2020-12-21 10:32+0000\n"
+"PO-Revision-Date: 2015-09-18 19:22-0000\n"
+"Last-Translator: \n"
+"Language-Team: pipdig\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;esc_html__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+
+#: inc/action.php:8
+msgid "Please try again by clicking the back button on your browser."
+msgstr ""
+
+#: inc/action.php:27
+msgid "Request not submitted. Please contact the Admin of this website so they can check the settings for this form."
+msgstr ""
+
+#: inc/action.php:74
+msgid "Spam check failed."
+msgstr ""
+
+#: inc/action.php:105 inc/action.php:123
+msgid "No name entered."
+msgstr ""
+
+#: inc/action.php:130 inc/action.php:134
+msgid "No email address entered."
+msgstr ""
+
+#: inc/action.php:179 zendesk-request-form.php:622
+msgid "Uploaded file is too large."
+msgstr ""
+
+#: inc/action.php:349
+msgid "Ticket not created."
+msgstr ""
+
+#: inc/action.php:382 inc/action.php:386
+msgid "Your message has been received. We will get back to you as soon as possible."
+msgstr ""
+
+#: inc/settings.php:154 zendesk-request-form.php:179
+msgid "Your message has been sent successfully."
+msgstr ""
+
+#: zendesk-request-form.php:157
+msgid "Your Name"
+msgstr ""
+
+#: zendesk-request-form.php:158
+msgid "Your Email"
+msgstr ""
+
+#: zendesk-request-form.php:159
+msgid "Subject"
+msgstr ""
+
+#: zendesk-request-form.php:160
+msgid "Your Message"
+msgstr ""
+
+#: zendesk-request-form.php:161
+msgid "Submit"
+msgstr ""
+
+#: zendesk-request-form.php:162
+msgid "Priority of your message"
+msgstr ""
+
+#: zendesk-request-form.php:163
+msgid "Upload a file"
+msgstr ""
+
+#: zendesk-request-form.php:164
+msgid "Maximum size:"
+msgstr ""
+
+#: zendesk-request-form.php:165
+msgid "Allowed file types:"
+msgstr ""
+
+#: zendesk-request-form.php:184
+#, php-format
+msgid "Your ticket number is %s."
+msgstr ""
+
+#: zendesk-request-form.php:328 zendesk-request-form.php:483
+msgid "Select an option"
+msgstr ""
+
+#: zendesk-request-form.php:437
+msgid "First name"
+msgstr ""
+
+#: zendesk-request-form.php:444
+msgid "Last name"
+msgstr ""
+
+#: zendesk-request-form.php:530
+msgid "No description set in ticket"
+msgstr ""
+
+#: zendesk-request-form.php:609
+#, php-format
+msgid "You can only upload a maximum of %s files."
+msgstr ""
+
+#: zendesk-request-form.php:632
+msgid "Uploaded file type is not allowed."
+msgstr ""
+
+#: zendesk-request-form.php:664
+msgid "Please enter a valid URL"
+msgstr ""

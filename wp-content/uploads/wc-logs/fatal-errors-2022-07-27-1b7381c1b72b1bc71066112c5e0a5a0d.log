@@ -1,0 +1,9 @@
+2022-07-27T07:49:41+00:00 CRITICAL Uncaught Error: Class 'WPSEO_Capability_Utils' not found in /www/utahairguns_512/public/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option.php:582
+Stack trace:
+#0 /www/utahairguns_512/public/wp-includes/class-wp-hook.php(307): WPSEO_Option->register_setting('')
+#1 /www/utahairguns_512/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /www/utahairguns_512/public/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /www/utahairguns_512/public/wp-admin/admin-post.php(30): do_action('admin_init')
+#4 {main}
+  thrown in /www/utahairguns_512/public/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option.php on line 582
+

@@ -1,0 +1,16 @@
+.elementor-1605 .elementor-element.elementor-element-7332117 > .elementor-container{min-height:100vh;}.elementor-1605 .elementor-element.elementor-element-7332117:not(.elementor-motion-effects-element-type-background), .elementor-1605 .elementor-element.elementor-element-7332117 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("http://utah.dvly.site/wp-content/uploads/2022/04/ezgif-2-2f1ab7280c.jpg");background-position:center center;background-size:cover;}.elementor-1605 .elementor-element.elementor-element-7332117 > .elementor-background-overlay{background-color:var( --e-global-color-2ee1b4e );opacity:0.7;transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-1605 .elementor-element.elementor-element-7332117{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:5rem 0rem 5rem 0rem;}.elementor-1605 .elementor-element.elementor-element-87bef2f .elementor-heading-title{color:var( --e-global-color-secondary );}.elementor-1605 .elementor-element.elementor-element-fb728ba .jet-login label{color:var( --e-global-color-25f8876 );}.elementor-1605 .elementor-element.elementor-element-fb728ba .login-submit{text-align:left;}.elementor-1605 .elementor-element.elementor-element-fb728ba > .elementor-widget-container{border-radius:8px 8px 8px 8px;}.elementor-1605 .elementor-element.elementor-element-47ac40b .elementor-heading-title{color:var( --e-global-color-secondary );}.elementor-1605 .elementor-element.elementor-element-032de83 .jet-register__label{color:var( --e-global-color-25f8876 );}.elementor-1605 .elementor-element.elementor-element-032de83 .jet-register-submit{text-align:left;}.elementor-1605 .elementor-element.elementor-element-032de83 > .elementor-widget-container{border-radius:8px 8px 8px 8px;}/* Start custom CSS for jet-login, class: .elementor-element-fb728ba */.jet-login .input {
+    width: 100%;
+    margin-bottom: 10px
+}
+
+.jet-login .button-primary {
+    margin-top: 16px
+}/* End custom CSS */
+/* Start custom CSS for jet-register, class: .elementor-element-032de83 */.elementor-jet-register .jet-register__input {
+    width: 100%;
+    margin-bottom: 10px
+}
+
+.elementor-jet-register .jet-register__submit {
+    margin-top: 16px
+}/* End custom CSS */

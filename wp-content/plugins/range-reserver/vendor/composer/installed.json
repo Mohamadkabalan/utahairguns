@@ -1,0 +1,445 @@
+{
+    "packages": [
+        {
+            "name": "jaybizzle/crawler-detect",
+            "version": "v1.2.63",
+            "version_normalized": "1.2.63.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JayBizzle/Crawler-Detect.git",
+                "reference": "3566bc69d0839ab2dfd739a660b00f25a6f02031"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/3566bc69d0839ab2dfd739a660b00f25a6f02031",
+                "reference": "3566bc69d0839ab2dfd739a660b00f25a6f02031",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8|^5.5|^6.5",
+                "satooshi/php-coveralls": "1.*"
+            },
+            "time": "2018-05-21T19:56:44+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Jaybizzle\\CrawlerDetect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Beech",
+                    "email": "m@rkbee.ch",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent",
+            "homepage": "https://github.com/JayBizzle/Crawler-Detect/",
+            "keywords": [
+                "crawler",
+                "crawler detect",
+                "crawler detector",
+                "crawlerdetect",
+                "php crawler detect"
+            ],
+            "install-path": "../jaybizzle/crawler-detect"
+        },
+        {
+            "name": "lucatume/di52",
+            "version": "2.1.5",
+            "version_normalized": "2.1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lucatume/di52.git",
+                "reference": "591eadfe768d931d3a0d522069c0924d668aa35e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lucatume/di52/zipball/591eadfe768d931d3a0d522069c0924d668aa35e",
+                "reference": "591eadfe768d931d3a0d522069c0924d668aa35e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2",
+                "xrstf/composer-php52": "1.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit-mock-objects-php52": "dev-1.1.0-php52",
+                "phpunit/phpunit-php52": "dev-3.6.12-php52"
+            },
+            "time": "2021-12-20T12:52:26+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "tad_DI52_": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Luca Tumedei",
+                    "email": "luca@theaveragedev.com"
+                }
+            ],
+            "description": "A PHP 5.2 compatible dependency injection container.",
+            "support": {
+                "issues": "https://github.com/lucatume/di52/issues",
+                "source": "https://github.com/lucatume/di52/tree/2.1.5"
+            },
+            "install-path": "../lucatume/di52"
+        },
+        {
+            "name": "text/template",
+            "version": "v2.6.3",
+            "version_normalized": "2.6.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dermatthes/text-template.git",
+                "reference": "fd77c2aeb9c749426c7f6b5f7ab93c8de90a7cbc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dermatthes/text-template/zipball/fd77c2aeb9c749426c7f6b5f7ab93c8de90a7cbc",
+                "reference": "fd77c2aeb9c749426c7f6b5f7ab93c8de90a7cbc",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "nette/tester": "*",
+                "phpunit/phpcov": "^2.0",
+                "satooshi/php-coveralls": "*"
+            },
+            "time": "2020-06-02T22:43:47+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Leuffen\\TextTemplate\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthias Leuffen",
+                    "email": "matthes@leuffen.de"
+                }
+            ],
+            "description": "Simple and secure string-template-engine (Twig-like syntax) with nested if/elseif/else, loops, filters. Simple OOP api: Just one class doing the job (2-lines of code). Fast and secure: No code-generation, no eval'ed() code. Extensible by callbacks. Fully tested. Rich examples included.",
+            "homepage": "http://text-template.pub.leuffen.de",
+            "keywords": [
+                "filter",
+                "for",
+                "if",
+                "loop",
+                "mail",
+                "render",
+                "smarty",
+                "template",
+                "text",
+                "twig"
+            ],
+            "install-path": "../text/template"
+        },
+        {
+            "name": "xrstf/composer-php52",
+            "version": "v1.0.20",
+            "version_normalized": "1.0.20.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer-php52/composer-php52.git",
+                "reference": "bd41459d5e27df8d33057842b32377c39e97a5a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer-php52/composer-php52/zipball/bd41459d5e27df8d33057842b32377c39e97a5a8",
+                "reference": "bd41459d5e27df8d33057842b32377c39e97a5a8",
+                "shasum": ""
+            },
+            "time": "2016-04-16T21:52:24+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-default": "1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "xrstf\\Composer52": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "install-path": "../xrstf/composer-php52"
+        },
+        {
+            "name": "google/apiclient",
+            "version": "v1.1.8",
+            "version_normalized": "1.1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/googleapis/google-api-php-client.git",
+                "reference": "85309a3520bb5f53368d43e35fd24f43c9556323"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client/zipball/85309a3520bb5f53368d43e35fd24f43c9556323",
+                "reference": "85309a3520bb5f53368d43e35fd24f43c9556323",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "time": "2016-06-06T21:22:48+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-v1-master": "1.1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/Google/autoload.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Client library for Google APIs",
+            "homepage": "http://developers.google.com/api-client-library/php",
+            "keywords": [
+                "google"
+            ]
+        },
+        {
+            "name": "katzgrau/klogger",
+            "version": "dev-master",
+            "version_normalized": "9999999-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/katzgrau/KLogger.git",
+                "reference": "de2d3ab6777a393a9879e0496ebb8e0644066e3f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/katzgrau/KLogger/zipball/de2d3ab6777a393a9879e0496ebb8e0644066e3f",
+                "reference": "de2d3ab6777a393a9879e0496ebb8e0644066e3f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "psr/log": "^1.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0.0"
+            },
+            "time": "2017-12-01T19:46:35+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Katzgrau\\KLogger\\": "src/"
+                },
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kenny Katzgrau",
+                    "email": "katzgrau@gmail.com"
+                },
+                {
+                    "name": "Dan Horrigan",
+                    "email": "dan@dhorrigan.com"
+                }
+            ],
+            "description": "A Simple Logging Class",
+            "keywords": [
+                "logging"
+            ]
+        },
+        {
+            "name": "psr/log",
+            "version": "1.1.3",
+            "version_normalized": "1.1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2020-03-23T09:12:05+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ]
+        },
+        {
+            "name": "twilio/sdk",
+            "version": "5.19.3",
+            "version_normalized": "5.19.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twilio/twilio-php.git",
+                "reference": "22ab6439fafb1351833f3510ccba8a6640efb87c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/22ab6439fafb1351833f3510ccba8a6640efb87c",
+                "reference": "22ab6439fafb1351833f3510ccba8a6640efb87c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "apigen/apigen": "^4.1",
+                "phpunit/phpunit": "4.5.*"
+            },
+            "time": "2018-06-05T02:22:11+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Twilio\\": "Twilio/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Twilio API Team",
+                    "email": "api@twilio.com"
+                }
+            ],
+            "description": "A PHP wrapper for Twilio's API",
+            "homepage": "http://github.com/twilio/twilio-php",
+            "keywords": [
+                "api",
+                "sms",
+                "twilio"
+            ]
+        },
+        {
+            "name": "yahnis-elsts/plugin-update-checker",
+            "version": "v4.9",
+            "version_normalized": "4.9.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/YahnisElsts/plugin-update-checker.git",
+                "reference": "28f29c940cc22754aff85a99645e3c0a51c097e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/YahnisElsts/plugin-update-checker/zipball/28f29c940cc22754aff85a99645e3c0a51c097e8",
+                "reference": "28f29c940cc22754aff85a99645e3c0a51c097e8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=5.2.0"
+            },
+            "time": "2020-02-07T11:07:19+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "load-v4p9.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yahnis Elsts",
+                    "email": "whiteshadow@w-shadow.com",
+                    "homepage": "http://w-shadow.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A custom update checker for WordPress plugins and themes. Useful if you can't host your plugin in the official WP repository but still want it to support automatic updates.",
+            "homepage": "https://github.com/YahnisElsts/plugin-update-checker/",
+            "keywords": [
+                "automatic updates",
+                "plugin updates",
+                "theme updates",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/YahnisElsts/plugin-update-checker/tree/v4.9",
+                "issues": "https://github.com/YahnisElsts/plugin-update-checker/issues"
+            }
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

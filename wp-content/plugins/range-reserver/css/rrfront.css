@@ -1,0 +1,220 @@
+.rr-standard {
+	width: 375px;
+	font-size: 1.2em;
+	white-space: nowrap;
+}
+
+.rr-standard .ui-datepicker {
+	width: auto;
+}
+
+.rr-standard .step {
+	width: 100%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+	padding-right: 7px;
+	position: relative;
+}
+
+.rr-standard .step label {
+	padding-right: 10px;
+	text-align: right;
+	display: inline-block;
+	width: 30%;
+}
+
+.rr-standard .step input {
+	margin-top: 5px;
+	width: 60%;
+}
+
+.rr-standard .step select {
+	width: 60%;
+}
+
+.rr-standard .step textarea {
+	width: 100%;
+	margin-top: 5px;
+	height: 100px;
+}
+
+.rr-standard .step .date .ui-datepicker-week-end {
+
+}
+
+.rr-standard .time-message {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.rr-standard .disabled .block {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	opacity: 0.6;
+	background-color: white;
+	z-index: 101;
+}
+
+.rr-standard .time {
+	border: 1px solid #ccc;
+	min-height: 100px;
+	white-space: normal;
+}
+
+.rr-standard .time-value {
+	display: inline-block;
+	width: 20%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px dotted #ccc;
+}
+
+.rr-standard .time-disabled {
+	cursor: default;
+	display: inline-block;
+	width: 20%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px dotted #ccc;
+	background-color: #ccc;
+}
+
+.rr-standard .col-50 .time-value, .rr-standard .col-50 .time-disabled {
+	width: 50%;
+}
+
+.rr-standard .time-value.am-pm, .rr-standard .time-disabled.am-pm {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.rr-standard .time-value.slots, .rr-standard .time-disabled.slots {
+	min-width: 25%;
+}
+
+.rr-standard .selected-time {
+	background-color: green;
+	color: white;
+}
+
+.rr-standard .time-value:hover {
+	background-color: #CCC;
+	cursor: pointer;
+}
+
+.rr-standard .description {
+	margin-bottom: 8px;
+}
+
+.rr-standard .section {
+	color: #008000;
+}
+
+.rr-standard #booking-overview {
+	padding-top: 5px;
+}
+
+.rr-standard #booking-overview td, .rr-standard #booking-overview th {
+	font-size: 0.8em;
+}
+
+.rr-standard #booking-overview .rr-label {
+	opacity: 0.6;
+	width: 40%;
+}
+
+.rr-standard #booking-overview .value {
+	text-align: right;
+}
+
+.rr-standard #booking-overview small {
+	display: block;
+}
+
+.rr-cancel {
+	margin-left: 110px;
+}
+
+label.error {
+	width: 100% !important;
+	color: red;
+}
+
+input.error, textarea.error, select.error {
+	border-color: red;
+}
+
+.final p {
+	margin-bottom: 0;
+}
+
+#rr-loader {
+	background-image: url('../img/ajax-loader.gif');
+	background-position: 50% 50%;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-repeat: no-repeat;
+	background-color: rgba(255, 255, 255, 0.1);
+	display: none;
+}
+
+.rr-standard .gdpr, .rr-standard .i-agree {
+	/* These are technically the same, but use both */
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+
+	-ms-word-break: break-all;
+	/* This is the dangerous one in WebKit, as it breaks things wherever */
+	word-break: break-all;
+	/* Instead use this non-standard one: */
+	word-break: break-word;
+
+	/* Adds a hyphen where the word breaks, if supported (No Blink) */
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+	white-space: initial;
+}
+
+.rr-phone-field-group {
+	display: block;
+}
+
+.rr-phone-field-group label {
+	display: none;
+}
+
+.rr-phone-field-group .rr-phone-country-code-part {
+	text-align: center;
+	width: 100%;
+}
+
+.rr-phone-field-group .rr-phone-number-part {
+	width: 100%;
+}
+
+.rr-phone-field-group .rr-phone-number-part::placeholder {
+	color: #cccccc;
+}
+
+.rr-standard td.ui-datepicker-week-col:hover {
+	background-color: inherit;
+	cursor: default;
+}
+
+.rr-checkout-section {
+	width: 100%;
+	max-width: 800px;
+}
